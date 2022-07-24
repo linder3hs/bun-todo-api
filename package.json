@@ -1,0 +1,14 @@
+{
+  "version": "1.0.4",
+  "name": "todo-api",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "hono": "^2.0.0"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "module": "src/index.js"
+}
