@@ -2,13 +2,21 @@
   "version": "1.0.4",
   "name": "todo-api",
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "nodemon": "^2.0.19"
   },
   "dependencies": {
-    "hono": "^2.0.0"
+    "hono": "^2.0.0",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.7",
+    "typescript": "^4.7.4"
   },
   "scripts": {
-    "start": "bun run src/index.ts"
+    "start": "bun run src/index.ts",
+    "dev": "nodemon",
+    "typeorm": "typeorm-ts-node-esm"
   },
   "module": "src/index.js"
 }
